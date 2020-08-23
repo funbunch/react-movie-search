@@ -1,3 +1,12 @@
+Movie Search App 
+
+Currently displays Title and poster image. 
+
+<img src="images/screen-1.jpg" width=1000 />
+<img src="images/screen-2.jpg" width=700 />
+<img src="images/screen-mobile.jpg" width=320 />
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

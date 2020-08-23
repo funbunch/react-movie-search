@@ -29,13 +29,13 @@ function SearchMovies() {
   console.log("Movies", movies);
   return (
     <>
-      <nav class="navbar navbar-light bg-light">
+      <nav className="navbar navbar-light bg-light">
       <label className="label mb-sm-2" htmlFor="query">Movie Name</label>
       <form className="form-inline" onSubmit={searchMovies}>
-        <input className="form-control mr-sm-2 mb-sm-2" type="text" name="query" placeholder="Top Gun" value={query} onChange={(e) => setQuery(e.target.value)} />
-        <button type="submit" className="btn btn-outline-success my-2 my-sm-0">Search</button>
+        <input className="form-control mr-sm-2 mb-2" type="text" name="query" placeholder="Top Gun" value={query} onChange={(e) => setQuery(e.target.value)} />
+        <button type="submit" className="btn btn-outline-success mb-2">Search</button>
       </form>
-      <div className="card-list row">
+      <div className="card-list row pt-3">
         {movies.map((movie, i) => ( 
           <div key={`movie-card-${i}`} className="col-12 col-sm-6 col-md-4 col-lg-3 ">
             <div class="card mb-4 p-2">

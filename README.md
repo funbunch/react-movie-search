@@ -1,4 +1,4 @@
-Movie Search App 
+Movie Search App<br> 
 http://bunchofideas.com/react-movie-search/
 
 Currently displays Title and poster image. 
